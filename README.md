@@ -36,6 +36,16 @@ Then you can activate the Exitstatus segment by adding it to your segment config
 }
 ```
 
+If you want to show exit status only failed, you can enable by setting `only_failed` argument to `true`.
+```json
+{
+    "function": "powerline_exitstatus.exit_status",
+    "args": {
+        "only_failed": true
+    }
+}
+```
+
 ## License
 Licensed under [the MIT License][3].
 
